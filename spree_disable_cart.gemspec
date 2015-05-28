@@ -3,13 +3,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_disable_cart'
   s.version     = '3.0.1'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Manage cart and price listing from Spree site, and enable or disable the cart and price listing from within the Admin panel.'
+  s.description = 'Spree extension to enable or disable cart'
   s.required_ruby_version = '>= 2.0.0'
 
   s.author    = 'Brajpratap Singh'
   s.email     = 'braj.pratap17@gmail.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.homepage  = 'https://github.com/brajpratap17/spree_disable_cart'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")

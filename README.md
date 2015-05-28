@@ -6,16 +6,15 @@ Introduction goes here.
 Installation
 ------------
 
-Add spree_disable_cart to your Gemfile:
+To install, add spree_disable_cart to your Gemfile and run `bundle install`:
 
 ```ruby
-gem 'spree_disable_cart'
+gem 'spree_disable_cart', github: 'brajpratap17/spree_disable_cart'
 ```
 
-Bundle your dependencies and run the installation generator:
+After `bundle install` run the installation generator:
 
 ```shell
-bundle
 bundle exec rails g spree_disable_cart:install
 ```
 
