@@ -1,0 +1,2 @@
+<!-- insert_bottom "[data-hook='admin_configurations_sidebar_menu']" -->
+<%= configurations_sidebar_menu_item t('Cart Status'), edit_admin_cart_path(Spree::Cart.first.id) %>

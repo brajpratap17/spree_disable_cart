@@ -1,0 +1,10 @@
+<%= render :partial => 'spree/admin/shared/sub_menu/configuration' %>
+
+<h1 class="row"><%= Spree.t(:editing_cart) %></h1>
+
+<%= render 'spree/shared/error_messages', :target => @cart %>
+
+<%= form_for [:admin, @cart], :html => { :multipart => true } do |f| %>
+  <p><%= f.check_box :cart_status %>&nbsp;<%= f.label :cart_status, Spree.t(:is_cart) %></p>
+  <%= f.submit Spree.t(:update) %>
+<% end -%>
