@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_disable_cart'
-  s.version     = '3.0.1'
+  s.version     = '3.0.2'
   s.summary     = 'Manage cart and price listing from Spree site, and enable or disable the cart and price listing from within the Admin panel.'
   s.description = 'Spree extension to enable or disable cart'
   s.required_ruby_version = '>= 2.0.0'
@@ -10,11 +10,14 @@ Gem::Specification.new do |s|
   s.author    = 'Brajpratap Singh'
   s.email     = 'braj.pratap17@gmail.com'
   s.homepage  = 'https://github.com/brajpratap17/spree_disable_cart'
+  s.extra_rdoc_files = ["README.md"]
+
+  s.licenses = ["MIT"]
+  s.rdoc_options = ["--main", "README.md"]
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
-  s.requirements << 'none'
 
   s.add_dependency 'spree_core', '~> 3.0.1'
 
