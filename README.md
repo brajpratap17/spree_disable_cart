@@ -36,6 +36,10 @@ Uses
 
 * Unchecked: Disable Cart and price listing.
 
+
+Copyright
+---------
+
 Copyright (c) 2015 [Brajpratap Singh][brajpratap], released under the New BSD License
 
 [brajpratap]: http://brajpratap.com
